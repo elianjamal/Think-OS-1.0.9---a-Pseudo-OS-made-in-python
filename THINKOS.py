@@ -10,7 +10,7 @@ class ThinkOS:
     def __init__(self):
         self.current_user = None
         self.user_files = {}
-        self.password = "ELIAN123"  # Change this to your desired password
+        self.password = "CHANGEME"  # Change this to your desired password
         self.data_file = "think_os_data.json"
         self.game_stats = {}
         self.load_data()
